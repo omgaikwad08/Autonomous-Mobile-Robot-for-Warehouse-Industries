@@ -20,8 +20,26 @@ With growing demand of Robotics and revolution of Industry 4.0 industries are no
 11.	11.1 V 2200 mAh Li-ion Battery + Battery Charger	
 12. Screw Driver with Tester
 
-2.MAKING THE URDF AND 3D DRAWING
+3.MAKING THE URDF AND 3D DRAWING
+
 ![image](https://user-images.githubusercontent.com/98101801/209709599-7d587f47-f26d-4451-ae3b-df6f9e74c5c0.png)
 
 ![image](https://user-images.githubusercontent.com/98101801/209709617-d21f5613-db71-4e95-9fb3-0b703ae35bbf.png)
+
+4.CIRCUITARY
+
+![image](https://user-images.githubusercontent.com/98101801/209711232-6df6a681-2e5c-4984-9f71-38b78b82c01f.png)
+
+CONNECTIONS ON HARDWARE
+
+![image](https://user-images.githubusercontent.com/98101801/209711296-63f93c56-6e77-43c6-a325-42d22269fca0.png)
+
+5.SLAM AND NAVIGATION
+
+![image](https://user-images.githubusercontent.com/98101801/209711448-d92fbeb4-9048-494c-b51d-d8fe3b77c026.png)
+
+![image](https://user-images.githubusercontent.com/98101801/209711483-78f68e6d-9841-4f52-b966-c23dd2e8e60d.png)
+
+6. RESULTS
+
 
