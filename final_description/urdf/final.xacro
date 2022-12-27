@@ -1,0 +1,167 @@
+<?xml version="1.0" ?>
+<robot name="final" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+<xacro:include filename="$(find final_description)/urdf/materials.xacro" />
+<xacro:include filename="$(find final_description)/urdf/final.trans" />
+<xacro:include filename="$(find final_description)/urdf/final.gazebo" />
+<link name="base_link">
+  <inertial>
+    <origin xyz="3.593065488485641e-17 0.0 0.05" rpy="0 0 0"/>
+    <mass value="21.870000000000005"/>
+    <inertia ixx="0.371972" iyy="0.371972" izz="0.738113" ixy="0.0" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://final_description/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://final_description/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="wheel_3_1">
+  <inertial>
+    <origin xyz="0.018000000000000044 -8.041698750169481e-18 6.938893903907228e-18" rpy="0 0 0"/>
+    <mass value="0.2629513051054657"/>
+    <inertia ixx="0.000329" iyy="0.000193" izz="0.000193" ixy="-0.0" iyz="-0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.225 -0.0 -0.05" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://final_description/meshes/wheel_3_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.225 -0.0 -0.05" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://final_description/meshes/wheel_3_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="wheel_4_1">
+  <inertial>
+    <origin xyz="0.0 0.018000000000000044 6.938893903907228e-18" rpy="0 0 0"/>
+    <mass value="0.2629513051054657"/>
+    <inertia ixx="0.000193" iyy="0.000329" izz="0.000193" ixy="-0.0" iyz="-0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.0 -0.225 -0.05" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://final_description/meshes/wheel_4_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.0 -0.225 -0.05" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://final_description/meshes/wheel_4_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="wheel_2_1">
+  <inertial>
+    <origin xyz="-0.018000000000000044 -8.041698750169481e-18 6.938893903907228e-18" rpy="0 0 0"/>
+    <mass value="0.2629513051054657"/>
+    <inertia ixx="0.000329" iyy="0.000193" izz="0.000193" ixy="-0.0" iyz="-0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.225 -0.0 -0.05" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://final_description/meshes/wheel_2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.225 -0.0 -0.05" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://final_description/meshes/wheel_2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="wheel_1_1">
+  <inertial>
+    <origin xyz="0.0 -0.018000000000000044 6.938893903907228e-18" rpy="0 0 0"/>
+    <mass value="0.2629513051054657"/>
+    <inertia ixx="0.000193" iyy="0.000329" izz="0.000193" ixy="0.0" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.0 0.225 -0.05" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://final_description/meshes/wheel_1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.0 0.225 -0.05" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://final_description/meshes/wheel_1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="Component6_1">
+  <inertial>
+    <origin xyz="-3.765623764387375e-18 -3.765623764387375e-18 0.012499999999999997" rpy="0 0 0"/>
+    <mass value="0.1041579336334428"/>
+    <inertia ixx="3e-05" iyy="3e-05" izz="5e-05" ixy="0.0" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.0 -0.0 -0.07" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://final_description/meshes/Component6_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.0 -0.0 -0.07" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://final_description/meshes/Component6_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<joint name="Rev1" type="continuous">
+  <origin xyz="0.225 0.0 0.05" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="wheel_3_1"/>
+  <axis xyz="1.0 0.0 0.0"/>
+</joint>
+
+<joint name="Rev2" type="continuous">
+  <origin xyz="0.0 0.225 0.05" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="wheel_4_1"/>
+  <axis xyz="0.0 1.0 0.0"/>
+</joint>
+
+<joint name="Rev3" type="continuous">
+  <origin xyz="-0.225 0.0 0.05" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="wheel_2_1"/>
+  <axis xyz="-1.0 0.0 0.0"/>
+</joint>
+
+<joint name="Rev4" type="continuous">
+  <origin xyz="0.0 -0.225 0.05" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="wheel_1_1"/>
+  <axis xyz="0.0 -1.0 0.0"/>
+</joint>
+
+<joint name="Rigid5" type="fixed">
+  <origin xyz="0.0 0.0 0.07" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="Component6_1"/>
+</joint>
+
+</robot>
