@@ -42,4 +42,5 @@ CONNECTIONS ON HARDWARE
 
 6. RESULTS
 
+![image](https://user-images.githubusercontent.com/98101801/209712727-db37e094-5ffa-4656-80cf-0122129e48aa.png)
 
