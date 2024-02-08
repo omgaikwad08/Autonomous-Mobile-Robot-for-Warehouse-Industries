@@ -1,5 +1,6 @@
 # Autonomous-Mobile-Robot-for-Warehouse-Industries
 Final year Undergrad project - Omni-Wheeled AMR
+![image](https://user-images.githubusercontent.com/98101801/209711448-d92fbeb4-9048-494c-b51d-d8fe3b77c026.png)
 
 ![omni](https://user-images.githubusercontent.com/98101801/217712969-1bc0e2ac-0cc5-4e4d-bddc-623afc6b1620.gif)
 
